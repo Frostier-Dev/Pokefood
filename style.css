@@ -1,0 +1,52 @@
+@font-face {
+    font-family: 'Pokepixel';
+    src: url('assets/font-pokepixel.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+body {
+    background-color: #42c04d;
+    margin: 0;
+    padding: 0;
+}
+
+.title {
+    text-align: center;
+    width: 100%;
+    font-family: 'Pokepixel'; 
+}
+.title #logo {
+    border: #76fd81 2px solid;
+    outline: #51db5c 10px solid;
+    background-color: #76fd81;
+    padding: 10px;
+    border-radius: 8px;
+    display: block;
+    width: 664px;
+    height: auto;
+    margin-top: 40px;
+    margin-left: auto;
+    margin-right: auto;
+    image-rendering: pixelated;
+    image-rendering: crisp-edges;
+}
+.title .buttons {
+    display: flex;
+    justify-content: center;
+    gap: 16px;
+    margin-top: 20px;
+}
+.title .buttons #btn-drink {
+    font-family: 'Pokepixel'; 
+    padding: 20px 40px; 
+    border: 4px solid black; 
+    background-color: #76fd81; 
+    cursor: pointer;
+}
+.title .buttons #btn-food {
+    font-family: 'Pokepixel'; 
+    padding: 20px 40px; 
+    border: 4px solid black; 
+    background-color: #e650d9; 
+    cursor: pointer;
+}
